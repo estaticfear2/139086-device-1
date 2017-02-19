@@ -936,7 +936,7 @@ body {
   width: 54px;
   height: 54px;
   top: 32px;
-  right: 10px;
+  right: 20px;
   background-color: rgba(240, 197, 46, .5);
   border-radius: 50%;
   border: none;
@@ -963,7 +963,7 @@ body {
 }
 
 .modal-content-map {
-  display: none;
+/*  display: none;*/
   position: fixed;
   left: 50%;
   top: 50%;
