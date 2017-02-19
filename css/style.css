@@ -65,6 +65,7 @@ body {
 }
 
 .main-header {
+  position: relative;
   background-color: #f7e296;
   margin-top: 40px;
   padding: 0 60px;
@@ -72,12 +73,26 @@ body {
 
 .logo {
   position: relative;
-  top: -20px;
+  top: -27px;
   left: -3px;
+  font-family: "GilroyExtraBold", sans-serif;
+  font-size: 48px;
+  letter-spacing: .01em;
+  color: black;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
+.logo:hover {
+  color: #464646;
+}
+
+.logo:active {
+  color: #666666;
+}
+
 .header-top {
+  margin-top: -18px;
   margin-bottom: 33px;
 }
 
@@ -93,7 +108,7 @@ body {
 }
 
 .header-top input[type="text"],
-.header-top input[type="submit"] {
+.header-top .search-submit {
   border: 2px solid transparent;
   font-family: "OpenSansLight", sans-serif;
   font-size: 15px;
@@ -148,14 +163,23 @@ body {
   border-right: 0;
 }
 
-.header-top input[type="text"]:focus+ input[type="submit"] {
+.header-top input[type="text"]:focus+ .search-submit {
   border-color: black;
   display: inline-block;
 }
 
-.header-top input[type="submit"] {
+.header-top .search-submit {
   display: none;
   width: 81px;  
+}
+
+.header-top .search-submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.header-top .search-submit:active {
+  color: rgba(255, 255, 255, .3);
 }
 
 .header-top .user-block {
@@ -288,7 +312,7 @@ body {
 
 .main-menu .sub-menu {
   display: none;
-  width: 100%;
+  width: 1100px;
 }
 
 .sub-menu ul {
@@ -318,6 +342,8 @@ body {
 .main-menu-item:first-child:hover .sub-menu {
   position: absolute;
   display: block;
+  left: 0;
+  padding-left: 60px;
   background-color: #f7e296;
   z-index: 2;
 }
@@ -968,6 +994,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2)
 }
 
 .contacts .btn {
@@ -1552,13 +1579,23 @@ body {
 
 .footer-left .logo {
   position: static;
+  font-size: 48px;
+  line-height: 1em;
   color: #f7e184;
+}
+
+.footer-left .logo:hover {
+  color: #f0c52e;
+}
+
+.footer-left .logo:active {
+  opacity: .3;
 }
 
 .footer-left b,
 .footer-right b {
   display: block;
-  margin-top: 25px;
+  margin-top: 21px;
   font-family: "OpenSansLight", sans-serif;
   font-size: 15px;
   line-height: 30px;
