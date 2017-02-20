@@ -35,7 +35,7 @@ body {
   
   color: #000;
   background-color: #fff;
-  font-family: "Gilroyextrabold", serif;
+  font-family: "Gilroyextrabold", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.2;
@@ -75,7 +75,7 @@ body {
   position: relative;
   top: -27px;
   left: -3px;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 48px;
   letter-spacing: .01em;
   color: black;
@@ -110,7 +110,7 @@ body {
 .header-top input[type="text"],
 .header-top .search-submit {
   border: 2px solid transparent;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 36px;
@@ -211,7 +211,7 @@ body {
   padding-left: 30px;
   text-decoration: none;
   position: relative;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   color: black;
   font-weight: 400;
@@ -271,7 +271,7 @@ body {
 .main-menu-item {
   display: inline-block;
   width: 160px;
-  font-family: "GilroyExtraBold";
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 18px;
   text-align: left;
   vertical-align: top;
@@ -303,7 +303,7 @@ body {
   right: -31px;
   color: rgba(0, 0, 0, .3);
   font-size: 30px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
 }
 
 .main-menu-item a {
@@ -330,7 +330,7 @@ body {
 }
 
 .sub-menu a {
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   letter-spacing: .01em;
@@ -462,7 +462,7 @@ body {
   line-height: 179px;
   letter-spacing: 0.01em;
   font-weight: 800;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   color: white;
   z-index: -1;
 }
@@ -477,7 +477,7 @@ body {
 
 .slide p {
   margin-bottom: 53px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   letter-spacing: 0.01em;
   line-height: 30px;
@@ -543,7 +543,7 @@ body {
 }
 
 .info-result {
-  font-family: "GilroyLight", sans-serif;
+  font-family: "GilroyLight", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -551,7 +551,7 @@ body {
 }
 
 .info-title {
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
@@ -693,7 +693,7 @@ body {
   padding-left: 8px;
   padding-right: 117px;
   margin-bottom: 22px;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.2em;
@@ -756,7 +756,7 @@ body {
 }
 
 .service-slide h3 {
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
   letter-spacing: .02em;
@@ -767,7 +767,7 @@ body {
 
 .service-slide p {
   width: 445px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
@@ -841,7 +841,7 @@ body {
 
 .info p {
   margin-bottom: 30px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -923,7 +923,7 @@ body {
   padding: 15px 20px;
   margin-top: 10px;
   border: none;
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: rgba(70, 70, 70, .4);
@@ -1053,7 +1053,7 @@ body {
 }
 
 .breadcrumbs-item a {
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 14px;
   line-height: 36px;
   letter-spacing: .01em;
@@ -1094,7 +1094,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 84px;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   letter-spacing: .22em;
@@ -1111,7 +1111,7 @@ body {
 .filters .title {
   margin-top: 12px;
   margin-bottom: 23px;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.2em;
   letter-spacing: .01em;
@@ -1166,7 +1166,7 @@ body {
 .price-controls label {
   display: inline-block;
   width: 89px;
-  font-family: "GilroyLight", sans-serif;
+  font-family: "GilroyLight", "Arial", sans-serif;
   font-size: 14px;
   line-height: 22px;
   
@@ -1211,7 +1211,7 @@ body {
 .colors .color-item {
   position: relative;
   padding-left: 38px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: .01em;
@@ -1257,7 +1257,7 @@ body {
 .bluetooth-item {
   position: relative;
   padding-left: 38px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: .01em;
@@ -1297,7 +1297,7 @@ body {
   width: 200px;
   padding: 0;
   margin-top: 7px;
-  font-family: "GilroyExtraBold", sans-serif;
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.2em;
   letter-spacing: .2em;
@@ -1328,7 +1328,7 @@ body {
 }
 
 .results a {
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   margin-right: 28px;
@@ -1463,7 +1463,7 @@ body {
 }
 
 .actions .bookmark {
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 13px;
   line-height: 36px;
   letter-spacing: .01em;
@@ -1500,7 +1500,7 @@ body {
   float: right;
   display: block;
   padding-top: 2px;
-  font-family: "GilroyLight", sans-serif;
+  font-family: "GilroyLight", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   letter-spacing: .01em;
@@ -1596,7 +1596,7 @@ body {
 .footer-right b {
   display: block;
   margin-top: 21px;
-  font-family: "OpenSansLight", sans-serif;
+  font-family: "OpenSansLight", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   color: white;
@@ -1641,7 +1641,7 @@ body {
 }
 
 .footer-menu-item a {
-  font-family: "GilroyExtraBold";
+  font-family: "GilroyExtraBold", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2em;
