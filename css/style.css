@@ -390,6 +390,15 @@ body {
   cursor: pointer;
 }
 
+.slider-controls label:hover {
+  border-color: rgba(0, 0, 0, .4);
+}
+
+.slider-controls label:active {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
 #btn-3:checked ~ .slider-controls label[for="btn-3"] { 
@@ -917,7 +926,6 @@ body {
   margin-right: 0;
 }
 
-
 .write-us input[type="text"] {
   width: 360px;
   padding: 15px 20px;
@@ -928,8 +936,17 @@ body {
   line-height: 18px;
   color: rgba(70, 70, 70, .4);
   background-color: rgba(229, 229, 229, .5);
-  
   box-sizing: border-box;
+}
+
+.write-us input[type="text"]:hover {
+  background-color: rgba(229, 229, 229, .8);
+}
+
+.write-us input[type="text"]:focus {
+  background-color: white;
+  color: rgba(70, 70, 70, 1);
+  outline: 3px solid #cbcbcb;
 }
 
 .write-us .message {
@@ -941,9 +958,23 @@ body {
   padding: 15px 20px;
   margin-top: 10px;
   margin-bottom: 53px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(70, 70, 70, .4); 
   border: none;
   background-color: rgba(229, 229, 229, .5);
   box-sizing: border-box;
+}
+
+.write-us textarea:hover {
+  background-color: rgba(229, 229, 229, .8);
+}
+
+.write-us textarea:focus {
+  background-color: white;
+  color: rgba(70, 70, 70, 1);
+  outline: 3px solid #cbcbcb;
 }
 
 .write-us-btn {
@@ -986,6 +1017,19 @@ body {
 
 .modal-content-close::after {
   transform: rotate(-45deg);
+}
+
+.modal-content-close:hover {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.modal-content-close:active {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.modal-content-close:active::before,
+.modal-content-close:active::after {
+  background-color: (255, 255, 255, .3);
 }
 
 .modal-content-map {
@@ -1061,33 +1105,52 @@ body {
   text-decoration: none;
 }
 
+.breadcrumbs-item a:hover {
+  color: rgba(0, 0, 0, .6);
+}
+
+.breadcrumbs-item a:active {
+  color: rgba(0, 0, 0, .1);
+}
+  
 .wrapper {
   position: relative;
-  background-image: linear-gradient(to bottom, #ebebeb 70px, white 70px);
+  background-image: url("../img/catalog-bg1.png");
   z-index: 0;
+  overflow: hidden;
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  width: 63%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  background: url("../img/catalog-bg2.png");
 }
 
 .wrapper::after {
   content: "";
   position: absolute;
-  width: 29%;
+  width: 37%;
   height: 100%;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to bottom, #dcdcdc 70px, #ebebeb 70px);
-  z-index: -1;
+  top: 70px;
+  right: 0;
+  background-color: white;
 }
 
 .inner-layout {
+  position: relative;
   width: 1100px;
   padding-left: 80px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .left {
   float: left;
   width: 270px;
-  z-index: 1;
 }
 
 .filter-label {
@@ -1149,6 +1212,11 @@ body {
   background-color: #eeeeee;
   cursor: pointer;
   z-index: 100;
+}
+
+.range-controls .toggle:hover {
+  background-color: #7eae29;
+  border-color: white;
 }
 
 .range-controls .toggle-min {
@@ -1246,6 +1314,14 @@ body {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.color-item:hover input[type="checkbox"] + .checkbox-indicator {
+  background-color: #cecece;
+}
+
+.color-item:hover input[type="checkbox"]:checked + .checkbox-indicator {
+  background-color: #cecece;
+}
+
 .color-item input[type="checkbox"]:checked + .checkbox-indicator {
   background-color: #c4c4c4;
 }
@@ -1308,15 +1384,24 @@ body {
 
 .right {
   float: right;
+  max-width: 830px;
+}
+
+.right .container {
   width: 760px;
+  padding-left: 70px;
+  padding-top: 70px; 
+  padding-bottom: 73px;
+  background-color: white;
 }
 
 .results {
   display: flex;
   align-items: center;
-  position: relative;
   padding: 9px 0;
-  margin-bottom: 70px;
+  padding-left: 70px;
+  background-image: url("../img/catalog-bg1.png");
+  background-repeat: repeat;
 }
 
 .results-type {
@@ -1512,7 +1597,6 @@ body {
   justify-content: space-between;
   align-content: center;
   background-color: #ebebeb;
-  margin-bottom: 73px;
 }
 
 .paginator a {
@@ -1569,7 +1653,7 @@ body {
   color: #fff;
   background-color: #464646;
   padding-top: 63px;
-  min-height: 320px;
+  padding-bottom: 65px;
 }
 
 .footer-left {
