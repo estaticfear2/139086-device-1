@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.min.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="layout-positioner">
@@ -14,16 +14,24 @@
         </a>
         <div class="header-top clearfix">
           <form class="search-form" action="#" method="get">
-            <label for="search">Поиск по сайту: </label>
+            <label for="search visually-hidden">Поиск по сайту: </label>
             <input type="text" id="search" placeholder="Поиск по сайту">
             <button class="search-submit" type="submit" id="search_submit">Найти</button>
             <span class="icon-search"></span>
           </form>
-          <div class="user-block">
+          <div class="user-block clearfix">
+            <ul class="user-authorization">
+              <li>
+                <a class="login" href="#">Войти</a>
+              </li>
+            </ul>
             <ul class="user-menu">
-              <li class="login"><a href="#">Войти</a></li>
-              <li class="compare"><a href="#">Сравнить</a></li>
-              <li class="basket"><a href="#">Корзина</a></li>
+              <li>
+                <a class="compare" href="#">Сравнить</a>
+              </li>
+              <li>
+                <a class="basket" href="#">Корзина</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -212,10 +220,18 @@
       </section>
       
       <section class="brands layout-positioner clearfix">
-        <img src="img/logo-1.png" width="260" height="100" alt="" class="brand-logo">
-        <img src="img/logo-2.png" width="260" height="100" alt="" class="brand-logo">
-        <img src="img/logo-3.png" width="260" height="100" alt="" class="brand-logo">
-        <img src="img/logo-4.png" width="260" height="100" alt="" class="brand-logo">
+        <div class="brand-logo">
+          <img class="brand-logo-image a1" src="img/logo-1.png" width="260" height="100" alt="">
+        </div>
+        <div class="brand-logo">
+          <img class="brand-logo-image" src="img/logo-2.png" width="260" height="100" alt="">
+        </div>
+        <div class="brand-logo">
+          <img class="brand-logo-image" src="img/logo-3.png" width="260" height="100" alt="">
+        </div>
+        <div class="brand-logo">
+          <img class="brand-logo-image" src="img/logo-4.png" width="260" height="100" alt="">
+        </div>
       </section>
       
       <section class="info layout-positioner clearfix">
@@ -225,7 +241,7 @@
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
           <ul class="carriers">
             <li>Деловые Линии</li>
-            <li>Авторейдинг</li>
+            <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
           <a class="btn btn-more">Подробнее о нас</a>
@@ -234,7 +250,7 @@
           <h3 class="title">Контакты</h3>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <a class="js-open-map" href="#">
-            <img class="map" src="img/map.jpg" width="560" height="222" alt="Как нас найти">
+            <img class="map" src="img/map.jpg" width="560" height="222" alt="Карта офиса по адресу улица Строителей, 15">
           </a>
           <a class="btn">Напишите нам</a>
         </div>
@@ -245,7 +261,7 @@
     <footer class="main-footer">
        <div class="layout-positioner clearfix">
         <div class="footer-left">
-          <a class="logo" href="index.html">
+          <a class="logo footer-logo" href="index.html">
             Device
           </a>
           <b>г. Москва, ул. Строителей, 15</b>
@@ -271,11 +287,19 @@
         </div>
         
         <div class="footer-right">
-          <div class="user-block">
+          <div class="user-block clearfix">
+            <ul class="user-authorization">
+              <li>
+                <a class="login" href="#">Войти</a>
+              </li>
+            </ul>
             <ul class="user-menu">
-              <li class="login"><a href="#">Войти</a></li>
-              <li class="compare"><a href="#">Сравнить</a></li>
-              <li class="basket"><a href="#">Корзина</a></li>
+              <li>
+                <a class="compare" href="#">Сравнить</a>
+              </li>
+              <li>
+                <a class="basket" href="#">Корзина</a>
+              </li>
             </ul>
           </div>
           <b>Тел.: +7 (495) 495-95-95</b>
@@ -312,7 +336,7 @@
         <span class="visually-hidden">Закрыть</span>
       </button>
       <img src="img/map-big.jpg" width="994" height="593" alt="map">
-<!--      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.527429315853645!3d55.68703098053581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1487368315672" width="960" height="559" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.527429315853645!3d55.68703098053581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1487368315672" width="960" height="559" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     
   </body>
