@@ -252,7 +252,7 @@
           <a class="js-open-map" href="#">
             <img class="map" src="img/map.jpg" width="560" height="222" alt="Карта офиса по адресу улица Строителей, 15">
           </a>
-          <a class="btn">Напишите нам</a>
+          <a class="btn js-feedback-open" href="writeus.html">Напишите нам</a>
         </div>
       </section>
       
@@ -318,16 +318,16 @@
       <form class="write-us" action="#" method="get">
         <div class="wrap clearfix">
           <label class="name" for="name">Ваше имя:
-            <input type="text" id="name" placeholder="Представтесь, пожалуйста">
+            <input type="text" id="name" name="name" placeholder="Представтесь, пожалуйста" required>
           </label>
           <label class="email" for="email">Ваш e-mail:
-            <input type="text" id="email" placeholder="Для отправки ответа">
+            <input type="text" id="email" name="email" placeholder="Для отправки ответа" required>
           </label>
         </div>
         <label class="message" for="message">Текст письма:
         <textarea id="message" placeholder="В свободной форме" rows="6"></textarea>
         </label>
-        <button class="btn write-us-btn" type="submit">Отправить</button>
+        <button class="btn write-us-btn" type="submit" >Отправить</button>
       </form>
     </div>
     
@@ -340,5 +340,6 @@
 -->
     </div>
     
+    <script src="js/script.min.js"></script>
   </body>
 </html>

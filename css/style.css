@@ -116,7 +116,7 @@ body {
 
 .header-top input[type="text"] {
   width: 355px;
-  min-height: 41px;
+  min-height: 41.2px;
   padding-left: 36px;
   padding-right: 10px;
   border-left: none;
@@ -952,6 +952,18 @@ body {
   width: 760px;
   padding: 100px;
   background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2)
+}
+
+@keyframes show {
+  0%   {
+    height: 20px;
+    opacity: .3;
+  }
+  100% {
+    height: 365px;
+    opacity: 1;
+  }
 }
 
 .write-us .wrap {
@@ -973,7 +985,7 @@ body {
   width: 360px;
   padding: 15px 20px;
   margin-top: 10px;
-  border: none;
+  border: 3px solid transparent;
   font-family: "OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -990,7 +1002,8 @@ body {
 .write-us input[type="text"]:focus {
   background-color: white;
   color: rgba(70, 70, 70, 1);
-  outline: 3px solid #cbcbcb;
+  border-color: #cbcbcb;
+  outline: none;
 }
 
 .write-us .message {
@@ -1007,7 +1020,7 @@ body {
   font-weight: 400;
   line-height: 18px;
   color: rgba(70, 70, 70, .4); 
-  border: none;
+  border: 3px solid transparent;
   background-color: rgba(229, 229, 229, .5);
   box-sizing: border-box;
 }
@@ -1019,7 +1032,8 @@ body {
 .write-us textarea:focus {
   background-color: white;
   color: rgba(70, 70, 70, 1);
-  outline: 3px solid #cbcbcb;
+  border-color: #cbcbcb;
+  outline: none;
 }
 
 .write-us-btn {
@@ -1030,6 +1044,7 @@ body {
   font: inherit;
   font-size: 18px;
   text-align: center;
+  z-index: 0;
 }
 
 .modal-content-close {
@@ -1087,6 +1102,15 @@ body {
   -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2)
+}
+
+.modal-content-show {
+  display: block;
+  animation: show linear 0.2s;
+}
+
+.map-show {
+  display: block;
 }
 
 .contacts .btn {
@@ -1718,6 +1742,18 @@ body {
 }
 
 
+/*-------------feedback-html-----------------------*/
+
+.feedback .show {
+  display: block;
+  position: static;
+  transform: none;
+  margin: 0 auto;
+}
+
+.feedback {
+  
+}
 
 /*-------------footer-----------------------*/
 
