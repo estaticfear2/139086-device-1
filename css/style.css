@@ -181,6 +181,7 @@ body {
 
 .header-top .search-submit:active {
   color: rgba(255, 255, 255, .3);
+  visibility: visible;
 }
 
 .header-top .user-block {
