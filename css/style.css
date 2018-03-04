@@ -1,29 +1,29 @@
 @font-face {
   font-family: "Gilroyextrabold";
-  src: url("../fonts/Gilroyextrabold.woff") format("woff"), 
-      url("../fonts/Gilroyextrabold.woff2") format("woff2");
+  src: url("../fonts/gilroyextrabold.woff") format("woff"),
+      url("../fonts/gilroyextrabold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroylight";
-  src: url("../fonts/Gilroylight.woff") format("woff"),
-      url("../fonts/Gilroylight.woff2") format("woff2");
+  src: url("../fonts/gilroylight.woff") format("woff"),
+      url("../fonts/gilroylight.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "OpenSansLight";
-  src: url("../fonts/OpenSansLight.woff") format("woff"),
-      url("../fonts/OpenSansLight.woff2") format("woff2");
+  src: url("../fonts/opensanslight.woff") format("woff"),
+      url("../fonts/opensanslight.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family:"OpenSans";
-  src: url("../fonts/OpenSans.woff") format("woff"),
-      url("../fonts/OpenSans.woff2") format("woff2");
+  src: url("../fonts/opensans.woff") format("woff"),
+      url("../fonts/opensans.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -166,7 +166,7 @@ body {
 
 .header-top .search-submit {
   visibility: hidden;
-  width: 81px; 
+  width: 81px;
 }
 
 .header-top input[type="text"]:focus + .search-submit {
@@ -423,7 +423,7 @@ body {
 
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"] { 
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
   border-color: rgba(0, 0, 0, 1);
 }
 
@@ -437,15 +437,15 @@ body {
   padding-left: 0;
 }
 
-#btn-1:checked ~ .slides .slide:nth-child(1) { 
+#btn-1:checked ~ .slides .slide:nth-child(1) {
   display: block;
 }
 
-#btn-2:checked ~ .slides .slide:nth-child(2) { 
+#btn-2:checked ~ .slides .slide:nth-child(2) {
   display: block;
 }
 
-#btn-3:checked ~ .slides .slide:nth-child(3) { 
+#btn-3:checked ~ .slides .slide:nth-child(3) {
   display: block;
 }
 
@@ -462,7 +462,7 @@ body {
 .slide .slide-text {
   float: right;
   width: 501px;
-  padding: 38px 0 0 40px; 
+  padding: 38px 0 0 40px;
 }
 
 .slide-title {
@@ -497,7 +497,7 @@ body {
   color: white;
   z-index: -1;
 }
-  
+
 .slide:nth-child(2) .slide-title::after {
   content: "02";
 }
@@ -513,7 +513,7 @@ body {
   line-height: 30px;
   font-weight: 500;
   letter-spacing: 0.01em;
-  
+
   color: #464646;
   text-transform: none;
 }
@@ -677,7 +677,7 @@ body {
 
 .popular-category-item:hover h3::before {
   background-color: rgba(240, 197, 46, 1);
-} 
+}
 
 .popular-category-item a:active h3::after {
   opacity: 0.3;
@@ -755,7 +755,7 @@ body {
 
 #btn-11:checked ~ .services-slider-controls label[for="btn-11"],
 #btn-12:checked ~ .services-slider-controls label[for="btn-12"],
-#btn-13:checked ~ .services-slider-controls label[for="btn-13"] { 
+#btn-13:checked ~ .services-slider-controls label[for="btn-13"] {
   background-color: black;
   color: #f7e184;
 }
@@ -808,13 +808,13 @@ body {
   text-transform: none;
 }
 
-#btn-11:checked ~ .service-slides .service-slide:nth-child(1) { 
+#btn-11:checked ~ .service-slides .service-slide:nth-child(1) {
   display: block;
 }
-#btn-12:checked ~ .service-slides .service-slide:nth-child(2) { 
+#btn-12:checked ~ .service-slides .service-slide:nth-child(2) {
   display: block;
 }
-#btn-13:checked ~ .service-slides .service-slide:nth-child(3) { 
+#btn-13:checked ~ .service-slides .service-slide:nth-child(3) {
   display: block;
 }
 
@@ -1020,7 +1020,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  color: rgba(70, 70, 70, .4); 
+  color: rgba(70, 70, 70, .4);
   border: 3px solid transparent;
   background-color: rgba(229, 229, 229, .5);
   box-sizing: border-box;
@@ -1149,7 +1149,7 @@ body {
   display: inline;
   position: relative;
   padding-right: 33px;
-  
+
 }
 
 .breadcrumbs-item::after {
@@ -1187,7 +1187,7 @@ body {
 .breadcrumbs-item a:active {
   color: rgba(0, 0, 0, .1);
 }
-  
+
 .wrapper {
   position: relative;
   background-image: url("../img/catalog-bg1.png");
@@ -1382,7 +1382,7 @@ body {
   position: absolute;
   width: 8px;
   height: 5px;
-  
+
   top: 6px;
   left: 7px;
   background-color: transparent;
@@ -1468,7 +1468,7 @@ body {
 .right .container {
   width: 760px;
   padding-left: 70px;
-  padding-top: 70px; 
+  padding-top: 70px;
   padding-bottom: 73px;
   background-color: white;
 }
@@ -1531,7 +1531,7 @@ body {
   border: 10px solid transparent;
 }
 
-.results .up {  
+.results .up {
   border-bottom: 10px solid rgba(0, 0, 0, .2);
   margin-bottom: 10px;
   margin-left: auto;
@@ -1582,8 +1582,8 @@ body {
   margin-right: 0;
 }
 .catalog-item:nth-child(n+3) {
-  margin-top: 49px; 
-} 
+  margin-top: 49px;
+}
 
 .catalog-item .flag {
   position: absolute;
@@ -1592,7 +1592,7 @@ body {
   width: 60px;
   height: 60px;
   background-repeat: no-repeat;
-  
+
   text-indent: -1000px;
   overflow: hidden;
   z-index: 2;
@@ -1688,7 +1688,7 @@ body {
 }
 
 .paginator a {
-  padding: 25px 10px; 
+  padding: 25px 10px;
   font-size: 16px;
   letter-spacing: .2em;
   color: rgba(0, 0, 0, .3);
@@ -1736,7 +1736,7 @@ body {
   color: rgba(0, 0, 0, .3);
 }
 
-.paginator .prev, 
+.paginator .prev,
 .paginator .next,
 .paginator .current {
   color: rgba(0, 0, 0, 1);
@@ -1753,7 +1753,7 @@ body {
 }
 
 .feedback {
-  
+
 }
 
 /*-------------footer-----------------------*/
@@ -1867,7 +1867,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   opacity: .6;
-  
+
   vertical-align: top;
 }
 
